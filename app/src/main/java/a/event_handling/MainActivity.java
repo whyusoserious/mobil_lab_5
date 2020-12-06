@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
 
             case R.id.menuitem_me:
-                fgmg.beginTransaction().replace(R.id.fragment_container_view, MotionEvent.class, null)
+                fgmg.beginTransaction().replace(R.id.fragment_container_view, MotionEvent_act.class, null)
                         .setReorderingAllowed(true).addToBackStack("name").commit();
                 return;
 
